@@ -65,3 +65,21 @@ body {
   align-items: center;
   background-color: #2196f3;
 }
+/* Особенности */
+.features-list-title,
+.features-list-description {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.features-list-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-list-description {
+  font-weight: 400;
+  line-height: 1.71;
+  color: #757575;
+}
