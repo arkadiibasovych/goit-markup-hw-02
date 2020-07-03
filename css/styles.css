@@ -16,7 +16,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -27,7 +27,7 @@ body {
 .adress-list-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .navigation-list-link {
@@ -42,4 +42,26 @@ body {
 .adress-list-link:hover,
 .adress-list-link:focus {
   color: #2196f3;
+}
+/* Герой */
+.hero-title,
+.hero-btn {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  background-color: #2196f3;
 }
