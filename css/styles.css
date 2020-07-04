@@ -1,7 +1,14 @@
-/* body*/
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --dark-theme-color: #ffffff;
+  --title-color: #212121;
+  --desription-color: #757575;
+  --accent-color: #2196f3;
+}
 body {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  background-color: #ffffff;
+  font-family: var(--main-font);
 }
 .link {
   text-decoration: none;
@@ -13,7 +20,7 @@ body {
 
 /* Шапка */
 .logo {
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -21,7 +28,7 @@ body {
   color: #000000;
 }
 .logo-accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigation-list-link,
 .adress-list-link {
@@ -41,12 +48,12 @@ body {
 .navigation-list-link:focus,
 .adress-list-link:hover,
 .adress-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* Герой */
 .hero-title,
-.hero-btn {
-  color: #ffffff;
+.modal-btn {
+  color: var(--dark-theme-color);
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -57,13 +64,13 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
 }
-.hero-btn {
+.modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 /* Особенности */
 .features-list-title,
@@ -76,12 +83,12 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color);
 }
 .features-list-description {
   font-weight: 400;
   line-height: 1.71;
-  color: #757575;
+  color: var(--desription-color);
 }
 /* Чем мы занимаемся */
 .section-title {
@@ -90,7 +97,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .lesson-list-description {
   font-weight: 700;
@@ -99,7 +106,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--dark-theme-color);
   background: rgba(47, 48, 58, 0.8);
 }
 /*Наша команда*/
@@ -113,11 +120,11 @@ body {
 
 .team-list-title {
   font-weight: 500;
-  color: #212121;
+  color: var(--title-color);
 }
 .team-list-description {
   font-weight: 400;
-  color: #757575;
+  color: var(--desription-color);
 }
 /* Подвал */
 footer {
@@ -133,7 +140,7 @@ footer .logo {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--dark-theme-color);
 }
 .contact-list-mail,
 .contact-list-tel {
@@ -145,5 +152,5 @@ footer .logo {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--dark-theme-color);
 }
