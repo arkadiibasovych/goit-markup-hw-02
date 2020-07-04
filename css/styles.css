@@ -142,6 +142,33 @@ body {
   background-color: var(--accent-color);
 }
 
+.gallery-list-title,
+.gallery-list-description {
+  font-size: 18px;
+}
+
+.gallery-list-title {
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.gallery-list-description,
+.gallery-list-subtitle {
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.gallery-list-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--desription-color);
+}
+.gallery-list-description {
+  line-height: 1.56;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
 /* Подвал */
 footer {
   background-color: #2f303a;
