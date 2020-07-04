@@ -119,3 +119,31 @@ body {
   font-weight: 400;
   color: #757575;
 }
+/* Подвал */
+footer {
+  background-color: #2f303a;
+}
+footer .logo {
+  color: #ffffff;
+}
+.contact-list-address,
+.contact-list-mail,
+.contact-list-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contact-list-mail,
+.contact-list-tel {
+  opacity: 0.6;
+}
+.slogan {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
