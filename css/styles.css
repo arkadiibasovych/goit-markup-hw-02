@@ -51,6 +51,19 @@ img {
   list-style: none;
 }
 
+.social-list {
+  display: flex;
+}
+
+.social-list-item {
+  width: 44px;
+  height: 44px;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* Шапка */
 
 .navigation {
@@ -218,6 +231,10 @@ img {
   display: flex;
 }
 
+.lesson-list-img {
+  margin-bottom: -70px;
+}
+
 .lesson-list,
 .lesson-list-description {
   margin-top: 0px;
@@ -243,6 +260,41 @@ img {
 }
 /*Наша команда*/
 
+.team {
+  background: #f5f4fa;
+  margin-bottom: 94px;
+}
+
+.team .container {
+  padding-top: 94px;
+}
+
+.team-list,
+.team-list-title,
+.team-list-description,
+.social-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.team-list-item {
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-img {
+  margin-bottom: 30px;
+}
+
 .team-list-title,
 .team-list-description {
   font-size: 16px;
@@ -252,13 +304,22 @@ img {
 }
 
 .team-list-title {
+  margin-bottom: 10px;
+
   font-weight: 500;
   color: var(--title-color);
 }
 .team-list-description {
+  margin-bottom: 16px;
+
   font-weight: 400;
   color: var(--desription-color);
 }
+
+.team .social-list {
+  padding-bottom: 24px;
+}
+
 /* Портфолио */
 .filter {
   margin-top: 94px;
