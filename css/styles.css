@@ -412,12 +412,44 @@ img {
   background-color: var(--accent-color);
 }
 /* Подвал */
+footer .container {
+  display: flex;
+  padding-bottom: 60px;
+}
+footer .contact-list {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 footer {
   background-color: #2f303a;
 }
 footer .logo {
+  display: block;
   color: #ffffff;
+  margin-bottom: 20px;
 }
+
+.footer-left-side {
+  padding-top: 60px;
+  margin-right: 69px;
+}
+
+.footer-right-side {
+  padding-top: 72px;
+}
+
+.slogan {
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer .social-list {
+  padding-left: 0px;
+  padding-bottom: 100px;
+}
+
 .contact-list-address,
 .contact-list-mail,
 .contact-list-tel {
@@ -430,6 +462,11 @@ footer .logo {
 .contact-list-mail,
 .contact-list-tel {
   opacity: 0.6;
+}
+
+.contact-list .address,
+.contact-list .mail {
+  margin-bottom: 9px;
 }
 .slogan {
   font-weight: 700;
