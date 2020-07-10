@@ -320,6 +320,32 @@ img {
   padding-bottom: 24px;
 }
 
+/* Постоянные клиенты */
+.clients {
+  margin-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+}
+
+.clients-list-link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Портфолио */
 .filter {
   margin-top: 94px;
