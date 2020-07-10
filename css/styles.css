@@ -103,6 +103,8 @@ body {
 
 .hero {
   background-color: teal;
+  height: 600px;
+  margin-bottom: 94px;
 }
 
 .hero-title,
@@ -128,6 +130,7 @@ body {
 .modal-btn {
   margin-left: auto;
   margin-right: auto;
+
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
@@ -143,6 +146,30 @@ body {
   border-radius: 4px;
 }
 /* Особенности */
+
+.features-list,
+.features-list-title,
+.features-list-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list-title {
+  margin-bottom: 10px;
+}
+
+.features-list-item {
+  width: 270px;
+}
+
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-list-title,
 .features-list-description {
   font-size: 14px;
