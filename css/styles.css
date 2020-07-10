@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -10,6 +19,13 @@ body {
   background-color: #ffffff;
   font-family: var(--main-font);
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .link {
   text-decoration: none;
   font-style: normal;
@@ -19,17 +35,41 @@ body {
 }
 
 /* Шапка */
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 85px;
+
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
   color: #000000;
 }
 .logo-accent {
   color: var(--accent-color);
 }
+.navigation-list,
+.address-list {
+  padding-left: 0px;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.address-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .navigation-list-link,
 .adress-list-link {
   font-weight: 500;
