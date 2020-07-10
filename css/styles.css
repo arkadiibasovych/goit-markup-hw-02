@@ -423,6 +423,11 @@ img {
   margin-bottom: 30px;
 }
 
+.gallery-list-title,
+.gallery-list-subtitle {
+  padding-left: 24px;
+}
+
 .gallery-list-title {
   margin-bottom: 4px;
 
