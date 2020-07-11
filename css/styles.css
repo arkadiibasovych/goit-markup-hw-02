@@ -49,15 +49,19 @@ img {
 }
 .list {
   list-style: none;
+  padding-left: 0px;
 }
 
 .social-list {
   display: flex;
 }
 
-.social-list-item {
+.social-link {
+  display: flex;
   width: 44px;
   height: 44px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-list-item:not(:last-child) {
@@ -132,8 +136,6 @@ img {
 /* Герой */
 
 .hero {
-  /* background-color: teal; */
-  height: 600px;
   margin-bottom: 94px;
 }
 
@@ -157,10 +159,15 @@ img {
   line-height: 1.36;
   text-transform: uppercase;
 }
+
+.hero-modal-btn {
+  padding-bottom: 200px;
+}
+
 .modal-btn {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
@@ -169,8 +176,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
+
   background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
@@ -231,9 +237,9 @@ img {
   display: flex;
 }
 
-.lesson-list-img {
+/* .lesson-list-img {
   margin-bottom: -70px;
-}
+} */
 
 .lesson-list,
 .lesson-list-description {
@@ -318,6 +324,7 @@ img {
 
 .team .social-list {
   padding-bottom: 24px;
+  padding-left: 32px;
 }
 
 /* Постоянные клиенты */
